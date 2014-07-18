@@ -9,7 +9,7 @@ q <- makeCacheMatrix(x)
 system.time(for(i in 1:100000) { cacheSolve(q) } )
 
 z <- makeCacheMatrixV2(x)
-system.time(for(i in 1:100000) { cacheSolve(q) } )
+system.time(for(i in 1:100000) { cacheSolve(z) } )
 
 
 ##
