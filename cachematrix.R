@@ -1,7 +1,7 @@
-## Put comments here that give an overall description of what your
-## functions do
+## makeCacheMatrix - function to store origin and inversed matrix.
+## cacheSolve - function to get inversed matrix.
+## makeCacheMatrixV2 - as first, but more readable.
 
-## Write a short comment describing this function
 
 ## object to store origin matrix and inversed
 makeCacheMatrix <- function(x = matrix()) {
@@ -18,9 +18,6 @@ makeCacheMatrix <- function(x = matrix()) {
          getinv = getinv)
 }
 
-
-
-## Write a short comment describing this function
 
 ##get inversed matrix based upon makeCacheMatrix
 ##printMessage = FALSE - do we need print message that
